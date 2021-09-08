@@ -1,3 +1,15 @@
+// add user admin
+// use admin;
+db.createUser(
+    {
+        user: "admin",
+        pwd: "admin", 
+        roles: [
+            { role: "userAdminAnyDatabase", db: "admin" }
+        ]
+    }
+)
+
 // Use test database as authentication databae
 // use test;
 
