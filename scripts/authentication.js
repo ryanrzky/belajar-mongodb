@@ -1,3 +1,6 @@
+// add cara login
+mongo --username admin --password admin --authenticationDatabase admin
+
 // add user admin
 // use admin;
 db.createUser(
